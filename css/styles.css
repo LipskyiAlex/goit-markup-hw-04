@@ -391,7 +391,7 @@ button {
 .team-icons-link:hover,
 .team-icons-link:focus {
   background-color: var(--color-ocean);
-  border-radius: 50%;
+
 }
 
 /**
@@ -450,7 +450,8 @@ button {
 */
 
 .filter {
-  padding: 96px 120px;
+  padding-top:96px;
+  padding-bottom:96px;
 }
 
 .filter-list {
@@ -501,7 +502,6 @@ button {
 .portfolio-link:hover,
 .portfolio-link:focus {
   background-color: var(--color-white);
-  border: 1px solid #F4F4FD;
   box-shadow:
    0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 
@@ -536,18 +536,18 @@ button {
   display: flex;
   gap: 120px;
   align-items: baseline;
+
 }
 
 .container-left {
   width: 264px;
   padding: 0;
-  margin-right: 0;
+  margin-left: 0;
 }
 
 .container-right {
-  width: 208px;
   padding: 0;
-  margin-left: 0;
+
 }
 
 .footer .logo {
@@ -602,7 +602,7 @@ button {
 .footer-icons-link:hover,
 .footer-icons-link:focus {
   background-color: var(--color-green);
-  border-radius: 50%;
+  
 }
 
 /**
